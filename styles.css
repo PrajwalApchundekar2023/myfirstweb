@@ -1,0 +1,499 @@
+body {
+  color: white;
+  /* image-rendering:pixelated; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  font-family: 'Borel', cursive;
+  font-family: 'Bungee Spice', cursive;
+  font-family: 'Handjet', cursive;
+  font-family: 'Press Start 2P', cursive;
+  background-image: url(https://media.istockphoto.com/id/938050474/photo/twinkling-star-field-overlay-texture-on-black-background.webp?b=1&s=170667a&w=0&k=20&c=VzUGpDajctHoe9dyQ9DwU7r7FOe2X7e-xJwSg5Da7ck=);
+  height: 100%;
+}
+a {
+  color: rgb(1, 253, 253);
+  text-decoration: none;
+}
+.main {
+  display: flex;
+  color: white;
+  background-image: url(https://wallpaperaccess.com/full/495984.jpg);
+  background-size: cover;
+  height: 300px;
+  width: 1200px;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-left: 150px;
+  flex-wrap: wrap;
+  transition: transform 2.2s;
+}
+#mainbox {
+  padding-top: 110px;
+  padding-left: 30px;
+  font-size: 32px;
+}
+.main:hover {
+  color: rgb(0, 255, 234);
+  background-size: 1350px;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+  transform: scale(1.02);
+}
+.left {
+  /* border: 2px solid red; */
+  display: inline-block;
+  position: absolute;
+}
+.left img {
+  width: 170px;
+}
+.right_top img {
+  width: 60px;
+}
+.right_top {
+  display: inline-block;
+  left: 920px;
+  margin-top: -100px;
+  padding-left: 500px;
+  height: 60px;
+}
+.Nav {
+  padding: 50px;
+  padding-left: 220px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+}
+.item {
+  display: flex;
+  text-shadow: rgb(248, 248, 248) 1px 0 1px;
+  justify-content: center;
+  position: static;
+  font-size: 18px;
+  border: 1px solid;
+  height: 30px;
+  width: 150px;
+  margin: 2px;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+#box1 {
+  width: 100px;
+  border-radius: 40px;
+}
+#box1:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+  /* box-shadow: 2px 2px 5px 1px rgb(0, 250, 241) inset; */
+}
+#box2 {
+  border-radius: 40px;
+}
+#box2:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+}
+#box3 {
+  border-radius: 40px;
+}
+#box3:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+}
+#box4 {
+  border-radius: 40px;
+}
+#box4:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+}
+#box5 {
+  border-radius: 40px;
+  width: 180px;
+}
+#box5:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+}
+#box6 {
+  border-radius: 40px;
+}
+#box6:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.5s;
+  box-shadow: 1px 1px 10px 1px rgb(1, 253, 253);
+}
+.info {
+  margin-top: 100px;
+  height: 1100px;
+  width: 1300px;
+  margin-left: 100px;
+  border-radius: 50px;
+}
+#titleinfo {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  border-radius: 50px;
+  background-size: cover;
+  background-image: url(https://i.pinimg.com/originals/21/5c/7f/215c7fdca6033092baa04b35c17466bd.gif);
+}
+/* .nav1 {
+  border: 2px solid white;
+  padding: 50px;
+  padding-left: 220px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+} */
+.box {
+  display: inline-block;
+  border-radius: 50px;
+  text-align: ;
+  flex-direction: row;
+  position: static;
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+  margin-top: 120px;
+  margin-left: 130px;
+}
+#info1 {
+  background-image: url(https://assets.stickpng.com/images/58429400a6515b1e0ad75acc.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info1:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+#info2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Indian_Space_Research_Organisation_Logo.svg/800px-Indian_Space_Research_Organisation_Logo.svg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info2:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+#info3 {
+  background-image: url(https://qph.cf2.quoracdn.net/main-qimg-42b9233a15182ec369a4650f01a1eeb1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info3:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+#info4 {
+  background-image: url(https://logos-world.net/wp-content/uploads/2020/09/SpaceX-Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info4:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+#info5 {
+  background-image: url(https://seeklogo.com/images/C/china-national-space-administration-logo-444C80C669-seeklogo.com.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info5:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+#info6 {
+  background-image: url(https://seeklogo.com/images/U/uk-space-agency-logo-01EEE0CD46-seeklogo.com.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#info6:hover {
+  background-color: rgb(125, 255, 233);
+  color: rgb(0, 255, 234);
+  transform: scale(1.1);
+  transition: transform 0.3s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+
+.nav1 {
+  border: 2px solid white;
+  width: 400px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: rgb(0, 255, 234) 3px 0 2px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+  background-color: black;
+}
+.contain1 {
+  margin: 50px;
+  border: 2px solid white;
+  height: 600px;
+  background-color: rgba(0, 248, 248, 0.862);
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  border-radius: 200px;
+}
+#smallbox {
+  background-color: black;
+  height: 400px;
+  margin: 80px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  justify-content: center;
+  padding: 50px;
+  line-height: 150%;
+  font-size: 20px;
+}
+.nav2 {
+  border: 2px solid white;
+  width: 400px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: rgb(0, 255, 234) 3px 0 2px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+  background-color: black;
+}
+.contain2 {
+  margin: 50px;
+  border: 2px solid white;
+  height: 1000px;
+  background-color: rgba(0, 248, 248, 0.862);
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  border-radius: 200px;
+}
+#smallbox2 {
+  background-color: black;
+  height: 800px;
+  margin: 50px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  justify-content: center;
+  padding: 50px;
+  line-height: 160%;
+  font-size: 20px;
+}
+.nav3 {
+  border: 2px solid white;
+  width: 400px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: rgb(0, 255, 234) 3px 0 2px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+  background-color: black;
+}
+.contain3 {
+  margin: 50px;
+  border: 2px solid white;
+  height: 1000px;
+  background-color: rgba(0, 248, 248, 0.862);
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  border-radius: 200px;
+}
+#smallbox3 {
+  background-color: black;
+  height: 800px;
+  margin: 50px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  justify-content: center;
+  padding: 50px;
+  line-height: 160%;
+  font-size: 20px;
+}
+.nav4 {
+  border: 2px solid white;
+  width: 400px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-shadow: rgb(0, 255, 234) 3px 0 2px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+  background-color: black;
+}
+.contain4 {
+  margin: 50px;
+  border: 2px solid white;
+  height: 700px;
+  background-color: rgba(0, 248, 248, 0.862);
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  border-radius: 200px;
+}
+#smallbox4 {
+  background-color: black;
+  height: 500px;
+  margin: 50px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  text-align: center;
+  padding: 50px;
+  line-height: 160%;
+  font-size: 20px;
+}
+.nav5 {
+  border: 2px solid white;
+  width: 400px;
+  height: 90px;
+  display: inline-block;
+  margin-left: 550px;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 25px;
+  text-shadow: rgb(0, 255, 234) 3px 0 2px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+  background-color: black;
+}
+.contain5 {
+  margin: 50px;
+  border: 2px solid white;
+  height: 1100px;
+  background-color: rgba(0, 248, 248, 0.862);
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  border-radius: 200px;
+}
+.smallbox5 {
+  background-image: url(https://www.insperity.com/wp-content/uploads/align_employees_1200x630.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: cover;
+  height: 300px;
+  width: 660px;
+  margin: 100px;
+  margin-left: 300px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(56, 63, 67);
+  justify-content: center;
+  padding: 50px;
+  line-height: 160%;
+}
+#smallbox5_1 {
+  background-color: black;
+  height: 400px;
+  margin: 55px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 20px 1px rgb(0, 157, 248);
+  padding: 25px;
+  line-height: 160%;
+  font-size: 20px;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  text-align: center;
+}
+footer {
+  margin: 50px;
+  border-top: 2px solid rgb(2, 255, 217);
+  height: 150px;
+  box-shadow: 1px rgb(0, 157, 248);
+}
+.foot {
+  height: 70px;
+  width: 300px;
+  margin-left: 550px;
+  margin-top: 20px;
+}
+.f {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+}
+#f1 {
+  background-image: url(https://img.icons8.com/?size=1x&id=yGcWL8copNNQ&format=png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+#f2 {
+  background-image: url(https://img.icons8.com/?size=1x&id=Xy10Jcu1L2Su&format=png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+#f3 {
+  background-image: url(https://img.icons8.com/?size=1x&id=5MQ0gPAYYx7a&format=png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+#f4 {
+  background-image: url(https://img.icons8.com/?size=1x&id=AZOZNnY73haj&format=png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+.f:hover {
+  background-color: rgb(125, 255, 233);
+  transform: scale(1.1);
+  transition: transform 0.8s;
+  box-shadow: 1px 1px 20px 1px rgb(1, 253, 253);
+}
+.foot2 {
+  margin: 0px 50px;
+  height: 70px;
+}
